@@ -1,0 +1,12 @@
+.title {
+    margin: 10px auto;
+    text-align: center;
+    color: #37474c;
+    h1 {
+        font-size: 3rem;
+        font-weight: bold;
+        @media(max-width: 1024px){
+            font-size: 2rem;
+        }
+    }
+}

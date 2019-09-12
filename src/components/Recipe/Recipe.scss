@@ -1,0 +1,35 @@
+.recipeWrapper{
+    padding: 20px 10px;
+    background-color: #c5ffff;
+    color: #7eb9ca;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgb(71,71,71);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 40%;
+    @media(max-width: 1024px){
+        width: 80%;
+    }
+}
+
+.image{
+    border-radius: 50%;
+    width:100px;
+    height: 100px;
+}
+
+.ingredientList{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 100px;
+    width: 100%;
+}
+
+a{
+    color: #7eb9ca;
+    margin: 20px auto;
+}
